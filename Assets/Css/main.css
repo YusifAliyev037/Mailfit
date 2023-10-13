@@ -1,0 +1,126 @@
+@import url("./reset.css");
+@import url("./variable.css");
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../fonts/CirceBold/Circe-Bold.eot');
+    src: url('../fonts/CirceBold/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CirceBold/Circe-Bold.woff') format('woff'),
+    url('../fonts/CirceBold/Circe-Bold.ttf') format('truetype'),
+    url('../fonts/CirceBold/Circe-Bold.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: var(--backround);
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+   
+    width: 600px;
+height: 1804px;
+flex-shrink: 0;
+background-color: var(--mainwhite);
+filter: drop-shadow(0px 2px 24px rgba(138, 128, 106, 0.20));
+margin: 42px 0;
+background-image: url('../Image/backround.svg');
+background-repeat: no-repeat;
+}
+
+.logo{
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 42px;
+} 
+.int-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-1-title{
+    color: var(--mainblack);
+text-align: center;
+font-size: 42px;
+font-weight: 700;
+line-height: 40px; /* 95.238% */
+text-transform: uppercase;
+width: 306px;
+height: 164px;
+}
+
+.wt-melon{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 14px;
+}
+.wt-mel-title{
+    color: var(--black1);
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+.wt-mel-subtitle{
+    color:var(--black1);
+font-family: Arial;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+text-transform: lowercase;
+}
+.promo-title{
+    color:var(--black1);
+font-family: Arial;
+font-size: 14px;
+text-align: center;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 8px;
+}
+.promo-kod{
+    color: var(--black1);
+font-family: Arial;
+font-size: 28px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+position: absolute;
+right: 198px;
+top: 434px;
+z-index: 1;
+
+}
+
+.btn{
+    color: var(--mainwhite);
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 247px;
+height: 60px;
+background-color: var(--green);
+border: none;
+border-radius: 40px;
+margin-top: 38px;
+}
+.promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+   
+
